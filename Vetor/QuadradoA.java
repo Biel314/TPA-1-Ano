@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class QuadradoA {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int a[], b[], i;
+		
+		a = new int[10];
+		b = new int[10];
+		
+		for(i=0; i<10; i++) {
+			System.out.println("Digite o "+(i+1)+"o valor do vetor A: ");
+			a[i] = in.nextInt();
+			b[i] = a[i]*a[i];
+		}
+		System.out.println();
+		for(i=0; i<10; i++) {
+			System.out.println("Apresente o "+(i+1)+"o valor do vetor B: "+b[i]);
+			System.out.println();
+		}
+	}
+}
