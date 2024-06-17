@@ -1,2 +1,2 @@
 # TPA
-Projetos de TPA - técnica de programação e algoritmos / ETEC de Guaianases
+Projetos de TPA - Técnica de Programação e Algoritmos do 1 ano da ETEC de Guaianases.
